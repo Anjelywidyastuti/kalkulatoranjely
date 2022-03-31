@@ -16,7 +16,7 @@ numbers.forEach((number) => {
     number.addEventListener("click", (event) => {
         inputNumber(event.target.value)
         updateScreen(currentNumber)
-        updateOperation(currentNumber)
+        updateOperation(number.value)
     })
 })
 
